@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="conflict-mgmt" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.imsproject.org/xsd/imscp_rootv1p1p2
+    imscp_rootv1p1p2.xsd
+    http://www.adlnet.org/xsd/adlcp_rootv1p2
+    adlcp_rootv1p2.xsd">
+
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+
+    <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+      <general>
+        <identifier>
+          <entry>conflict-mgmt</entry>
+        </identifier>
+
+        <title>
+          <string language="en"></string>
+        </title>
+
+        <description>
+          <string language="en"></string>
+        </description>
+      </general>
+    </lom>
+  </metadata>
+
+  <organizations default="ORG01">
+    <organization identifier="ORG01">
+      <title></title>
+      <item identifier="ITEM01" identifierref="RES01">
+        <title></title>
+      </item>
+    </organization>
+  </organizations>
+
+  <resources>
+    <resource identifier="RES01" type="webcontent" adlcp:scormtype="sco" href="index.html">
+
+      <file href="index.html" />
+
+      <file href="Maya.webp" />
+      <file href="assets/1/Module 1.mp4" />
+      <file href="assets/1/calendar-sfx-1.mp3" />
+      <file href="assets/1/calendar.png" />
+      <file href="assets/1/cubicle-1.png" />
+      <file href="assets/1/cubicle.png" />
+      <file href="assets/1/cup-1.png" />
+      <file href="assets/1/cup-sfx.mp3" />
+      <file href="assets/1/email-1.png" />
+      <file href="assets/1/email-sfx.mp3" />
+      <file href="assets/1/mod-1-calendar-hotspot-vo.mp3" />
+      <file href="assets/1/mod-1-cup-hotspot-vo.mp3" />
+      <file href="assets/1/mod-1-desktop-hotspot-vo.mp3" />
+      <file href="assets/1/mod-1-final-end-vo.mp3" />
+      <file href="assets/1/mod-1-proposal-hotspot-vo.mp3" />
+      <file href="assets/1/module-1-video-end-vo.mp3" />
+      <file href="assets/1/proposal-1.png" />
+      <file href="assets/1/proposal-sfx.mp3" />
+      <file href="assets/10/10-second-countdown-1.mp4" />
+      <file href="assets/10/mod-10-correct-ans-vo.mp3" />
+      <file href="assets/10/mod-10-incorrect-ans-vo.mp3" />
+      <file href="assets/10/mod-10-initial-vo.mp3" />
+      <file href="assets/10/mod-10-video-subs.vtt" />
+      <file href="assets/10/mod-10-video.mp4" />
+      <file href="assets/11/Module 10.mp4" />
+      <file href="assets/11/Module_10.vtt" />
+      <file href="assets/2/10-seconds-of-silence-1.mp3" />
+      <file href="assets/2/address-the-vibe-o.png" />
+      <file href="assets/2/address-the-vibe.png" />
+      <file href="assets/2/address-the-vibe.webp" />
+      <file href="assets/2/audit-the-invisible-o.png" />
+      <file href="assets/2/audit-the-invisible.png" />
+      <file href="assets/2/audit-the-invisible.webp" />
+      <file href="assets/2/before-proposal-docs-activity.mp3" />
+      <file href="assets/2/edit0.png" />
+      <file href="assets/2/final-end-vo.mp3" />
+      <file href="assets/2/jordan-cropped-up.png" />
+      <file href="assets/2/jordan-vo.mp3" />
+      <file href="assets/2/module-2-first-vo.mp3" />
+      <file href="assets/2/module-2-video-subs.vtt" />
+      <file href="assets/2/module-2-video.mp4" />
+      <file href="assets/2/order-pad-sound.mp3" />
+      <file href="assets/2/priya-cropped-up.png" />
+      <file href="assets/2/priya-vo.mp3" />
+      <file href="assets/2/proposal-doc-1-vo.mp3" />
+      <file href="assets/2/proposal-doc-2-vo.mp3" />
+      <file href="assets/2/proposal-doc-3-vo.mp3" />
+      <file href="assets/2/rotate-the-glory-o.png" />
+      <file href="assets/2/rotate-the-glory.png" />
+      <file href="assets/2/rotate-the-glory.webp" />
+      <file href="assets/2/ryan-cropped-up.png" />
+      <file href="assets/2/ryan-vo.mp3" />
+      <file href="assets/3/10-seconds-of-silence-1.mp3" />
+      <file href="assets/3/module-3-background.webp" />
+      <file href="assets/3/module-3-correct-vo.mp3" />
+      <file href="assets/3/module-3-incorrect-vo.mp3" />
+      <file href="assets/3/module-3-initial-vo.mp3" />
+      <file href="assets/3/module-3-music.mp3" />
+      <file href="assets/3/module-3-video-subs.vtt" />
+      <file href="assets/3/module-3-video.mp4" />
+      <file href="assets/4/Module 4.mp4" />
+      <file href="assets/4/after-bridge.png" />
+      <file href="assets/4/before-bridge.png" />
+      <file href="assets/4/mod-4-final-vo.mp3" />
+      <file href="assets/4/mod-4-initial-vo.mp3" />
+      <file href="assets/4/mod-4-phase-1-before-game-vo.mp3" />
+      <file href="assets/4/mod-4-phase-2-before-game-vo.mp3" />
+      <file href="assets/4/module-4-video-subs.vtt" />
+      <file href="assets/5/10-seconds-of-silence-1.mp3" />
+      <file href="assets/5/mod-5-final-ending-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-1-wrong-option-accommodating-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-1-wrong-option-collaborating-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-1-wrong-option-competing-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-1-wrong-option-compromising-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-2-wrong-option-accommodating-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-2-wrong-option-avoiding-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-2-wrong-option-collaborating-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-2-wrong-option-compromising-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-3-wrong-option-avoiding-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-3-wrong-option-collaborating-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-3-wrong-option-competing-vo.mp3" />
+      <file href="assets/5/mod-5-scenario-3-wrong-option-compromising-vo.mp3" />
+      <file href="assets/5/mod-5-video-1-subs.vtt" />
+      <file href="assets/5/mod-5-video-1.mp4" />
+      <file href="assets/5/mod-5-video-2-subs.vtt" />
+      <file href="assets/5/mod-5-video-2.mp4" />
+      <file href="assets/5/mod-5-video-3-subs.vtt" />
+      <file href="assets/5/mod-5-video-3.mp4" />
+      <file href="assets/5/mod-5-video-common-subs.vtt" />
+      <file href="assets/5/mod-5-video-common.mp4" />
+      <file href="assets/6/Module 6.mp4" />
+      <file href="assets/6/Module_6.vtt" />
+      <file href="assets/6/mod-6-adaptive-approach-vo.mp3" />
+      <file href="assets/6/mod-6-align-personality-vo.mp3" />
+      <file href="assets/6/mod-6-final-end-vo.mp3" />
+      <file href="assets/6/mod-6-friction-point-vo.mp3" />
+      <file href="assets/6/mod-6-rigid-approach-vo.mp3" />
+      <file href="assets/6/mod-6-trial-period-vo.mp3" />
+      <file href="assets/7/Module 7.mp4" />
+      <file href="assets/7/Module_7.vtt" />
+      <file href="assets/7/mod-7-final-vo.mp3" />
+      <file href="assets/7/mod-7-initial-vo.mp3" />
+      <file href="assets/8/10-second-countdown-1.mp4" />
+      <file href="assets/8/10-seconds-of-silence-1.mp3" />
+      <file href="assets/8/active-listening.png" />
+      <file href="assets/8/assertive-1.png" />
+      <file href="assets/8/clarifying-questions.png" />
+      <file href="assets/8/emotiona-regulation-1.png" />
+      <file href="assets/8/empathy-final.png" />
+      <file href="assets/8/mod-8-active-listening-vo.mp3" />
+      <file href="assets/8/mod-8-assertiveness-vo.mp3" />
+      <file href="assets/8/mod-8-background.png" />
+      <file href="assets/8/mod-8-clarifying-questions-vo.mp3" />
+      <file href="assets/8/mod-8-emotional-regulation-vo.mp3" />
+      <file href="assets/8/mod-8-empathy-vo.mp3" />
+      <file href="assets/8/mod-8-initial-vo.mp3" />
+      <file href="assets/8/mod-8-non-defensive-vo.mp3" />
+      <file href="assets/8/mountain-1.jpg" />
+      <file href="assets/8/non-defensive.png" />
+      <file href="assets/9/4.mp4" />
+      <file href="assets/9/mod-9-after-initial-vo.mp3" />
+      <file href="assets/9/mod-9-each-person-explain-vo.mp3" />
+      <file href="assets/9/mod-9-everyone-cool-off-vo.mp3" />
+      <file href="assets/9/mod-9-final-end-vo.mp3" />
+      <file href="assets/9/mod-9-initial-vo.mp3" />
+      <file href="assets/9/mod-9-pick-a-side-vo.mp3" />
+      <file href="assets/9/mod-9-stop-argument-vo.mp3" />
+      <file href="assets/global/button-click.mp3" />
+      <file href="assets/global/button-hover.mp3" />
+      <file href="assets/global/drag-drop.mp3" />
+      <file href="assets/global/failure-sound-effect.mp3" />
+      <file href="assets/global/success-sound-effect.mp3" />
+      <file href="assets/global/try-again-vo.mp3" />
+      <file href="assets/global/wrong-ans-vo.mp3" />
+      <file href="assets/images/oneplus.png" />
+      <file href="assets/index-BxBcddLE.css" />
+      <file href="assets/index-r_UAeyip.js" />
+      <file href="assets/music/bg-music.mp3" />
+      <file href="assets/sound-effects/15-secs-sound.mp3" />
+      <file href="index.html" />
+
+    </resource>
+  </resources>
+
+</manifest>
